@@ -5,11 +5,10 @@ on:
     branches:
     - master
     - Release
-  pull_request_target:
+  pull_request:
     branches:
     - master
     - Release
-    - chocolate-pie
 
 jobs:
   cancel-workflow-runs-in-progress:
