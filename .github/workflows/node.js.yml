@@ -1,10 +1,6 @@
 name: Node.js CI
 
 on:
-  push:
-    branches:
-    - master
-    - Release
   pull_request_target:
     branches:
     - master
