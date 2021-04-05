@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Confirm package-lock does not contain the registry
-        run: echo 'chocolate bunnies taste good :yum:'
+        run: echo 'chocolate bunnies taste good :yummy:'
 
   lint:
     needs: setup
