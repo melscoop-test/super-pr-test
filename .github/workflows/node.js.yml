@@ -9,6 +9,7 @@ on:
     branches:
     - master
     - Release
+    - chocolate-pie
 
 jobs:
   cancel-workflow-runs-in-progress:
