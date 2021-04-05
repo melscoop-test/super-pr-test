@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Confirm package-lock does not contain the registry
-        run: echo 'eat shit'
+        run: echo 'chocolate bunnies taste good :yum:'
 
   lint:
     needs: setup
@@ -118,4 +118,7 @@ jobs:
       #     path: node_modules/.cache
       #     key: node-modules-cache-os-${{ runner.os }}-node-${{ matrix.node-version }}-package-lock-${{ hashFiles('package.json', 'package-lock.json') }}-job-id-${{ github.job }}-run-id-${{ github.run_id }}
       #     restore-keys: node-modules-cache-os-${{ runner.os }}-node-${{ matrix.node-version }}-package-lock-${{ hashFiles('package.json', 'package-lock.json') }}-job-id-${{ github.job }}-run-id-
-      - run: echo 'enough of this shit'
+      - run: echo 'no need to be alarmed, this is just a test!'
+      
+      
+      
