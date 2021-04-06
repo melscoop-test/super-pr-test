@@ -1,0 +1,19 @@
+{
+  "name": "super-pr-test-1089989",
+  "version": "1.0.0",
+  "description": "testing pull_request vs pull_request_target events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melscoop-test/super-pr-test-1089989.git"
+  },
+  "author": "melanie <melscoop@github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melscoop-test/super-pr-test-1089989/issues"
+  },
+  "homepage": "https://github.com/melscoop-test/super-pr-test-1089989#readme"
+}
